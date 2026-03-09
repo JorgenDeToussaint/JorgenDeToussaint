@@ -1,18 +1,34 @@
-### Hi there! 👋 I'm Mateusz "Jorgen De Toussaint" Zalewski
+## Hi there, I'm Mateusz Zalewski 👋
 
-I am a Python Developer focused on **Data Engineering** and **Backend Development**. I enjoy building scalable ETL pipelines, working with SQL databases, and turning raw data into actionable insights.
+**Data Engineer** · Python · SQL · Cloud-native pipelines
 
-#### 🛠 Tech Stack
-* **Languages:** Python (Asyncio, OOP), SQL
-* **Data & ETL:** PostgreSQL, SQLAlchemy, Pandas, Numpy
-* **Tools:** Docker, Git, Linux
-* **Visualization:** Matplotlib, Seaborn
+I design and build **production-grade data infrastructure** — from ingestion to warehousing. My focus is on reliability, throughput, and making data actually useful downstream.
 
-#### 🚀 Featured Project: Steam User Analytics ETL
-I built an end-to-end analytical pipeline to study gamer behavior patterns.
-* **Architecture:** Asynchronous data fetching from Steam API (aiohttp) → Processing → PostgreSQL Data Warehouse.
-* **Key Achievement:** Optimized data ingestion speed and identified bimodal distribution in playtime data.
-* **Tech:** Python, PostgreSQL, Pandas, Docker.
+---
 
-#### 📫 Connect with me
-* guydoingsomethings@tutanota.com
+### 🛠 Tech Stack
+
+| Layer | Tools |
+|---|---|
+| **Languages** | Python (asyncio, OOP, type hints), SQL |
+| **Data & ETL** | PostgreSQL, SQLAlchemy, Pandas, NumPy |
+| **Cloud & Infra** | AWS (S3, Lambda, Glue), Docker, Linux |
+| **Processing** | Apache Spark (PySpark) |
+| **Visualization** | Matplotlib, Seaborn, basic BI tooling |
+
+---
+
+### 🚀 Featured: Steam User Analytics — Async ETL Pipeline
+
+End-to-end analytical pipeline processing behavioral data at scale.
+
+- **Ingestion:** Async batch fetching from Steam Web API via `aiohttp` with rate-limit handling and retry logic
+- **Processing:** Multi-stage transformation layer — deduplication, schema normalization, outlier detection
+- **Storage:** PostgreSQL data warehouse with optimized indexing for analytical queries
+- **Finding:** Identified statistically significant **bimodal distribution in playtime** — segmenting users into casual vs. engaged cohorts
+- **Stack:** Python · PostgreSQL · Pandas · Docker
+
+---
+
+### 📫 Contact
+zalewski.mateusz@protonmail.com
